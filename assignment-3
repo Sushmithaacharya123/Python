@@ -1,0 +1,98 @@
+#methods in list
+#append()
+my_list=[1,2,3,4,5]
+my_list.append(6)
+print(my_list)
+
+#count()
+my_list=[1,2,3,4,5,4,6,7,4]
+x=my_list.count(4)
+print(x)
+
+#clear()
+my_list=[1,2,3,4,5]
+my_list.clear()
+print(my_list)
+
+
+
+#insert()
+my_list=[1,2,3,4,5]
+my_list.insert(3,7)
+print(my_list)
+
+
+#pop()
+my_list=[1,2,3,4,5]
+my_list.pop(4)
+print(my_list)
+
+
+#remove()
+my_list=[1,2,3,4,5]
+my_list.remove(4)
+print(my_list)
+
+#sort
+list=[4,2,5,3,1]
+x=sorted(list)
+print(x)
+
+#copy()
+toys=['car','bike','barbie','truck']
+x=toys.copy()
+print(x)
+
+#extend()
+list=['money','mode','jack','jai']
+items=(2,4,6)
+list.extend(items)
+print(list)
+
+#reverse
+toys=['car','bike','barbie','truck']
+toys.reverse()
+print(toys)
+
+
+#index
+toys=['car','bike','barbie','truck']
+x=toys.index('bike')
+print(x)
+
+#String methods
+#isupper()
+name="World  is beautiful when you start love youself"
+x=name.isupper()
+print(x)
+
+#islower
+name="world  is beautiful when you start love youself"
+x=name.islower()
+print(x)
+
+#join()
+list=['1','2','3','4','5']
+x="-"
+x=x.join(list)
+print(x)
+
+
+#find()
+joy="Jack is my inspiration"
+x=joy.find("my")
+print(x)
+
+#isspace
+text=" my joy "
+x=text.isspace()
+print(x)
+
+#capitalize
+name="my captain my joy"
+print(name.capitalize())
+
+
+
+usage of negative indexing is use or display data from the end of the list
+and also used to reverse the number
