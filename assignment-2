@@ -1,0 +1,79 @@
+#assignment operator comparison
+x=6
+print(x)
+
+x+=5
+print(x)
+
+x -=3
+print(x)
+
+x *=2
+print(x)
+
+x /=2
+print(x)
+
+x %=2
+print(x)
+
+x //=3
+print(x)
+
+x **=2
+print(x)
+
+x &=3
+print(x)
+
+x |=3
+print(x)
+
+x ^=3
+print(x)
+
+x >>=3
+print(x)
+
+x <<=3
+print(x)
+
+#comparison
+x=6
+y=5
+
+x==y
+print(x==y)
+
+x!=y
+print(x!=y)
+
+x>y
+print(x>y)
+
+x<y
+print(x<y)
+
+x>=y
+print(x>=y)
+
+x<=y
+print(x<=y)
+
+#if else
+weather="snow"
+
+if weather=="snow":
+    print("I will go out")
+else:
+    print("I will not")
+    
+    
+    
+    
+rain=0
+if(rain==0):
+   print("frogs and I will dance")
+else:
+    print("I will not")
+    
