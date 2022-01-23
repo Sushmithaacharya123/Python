@@ -1,0 +1,31 @@
+print("enter the values:")
+a=int(input())
+b=int(input())
+ #add
+c=a+b
+print(c)
+
+#multiplication
+c=int(input())
+d=int(input())
+e=c*d
+print(e)
+
+
+#subtracttion
+i=int(input())
+j=int(input())
+k=i-j
+print(k)
+
+#divison
+l=int(input())
+m=int(input())
+n=l/m
+print(n)
+
+#module
+r=int(input())
+s=int(input())
+t=r%s
+print(t)
