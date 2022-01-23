@@ -1,0 +1,20 @@
+#forloop
+list_1=[0,1,2,3,4,5]
+for i in range(0,len(list_1),2):
+    print(list_1[i])
+    
+ #infiniteloop
+ i=0
+while(i<=10):
+    print("Our captain is best")
+    
+    
+#tuple
+toys=('car','bike','barbie','truck',)
+x=list(toys)
+print(x)
+
+x.append('kitchen set')
+toys=tuple(x)
+print(toys)
+
